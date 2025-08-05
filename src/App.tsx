@@ -19,37 +19,37 @@ function App() {
 
   const fabricCards = [
     {
-      image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1675799745794-914dcb172a0f?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('knitFabrics'),
       description: t('knitDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673469111857-a73b7331962b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('flatKnit'),
       description: t('flatKnitDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1754143399857-e5265eb26b26?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('laceTextiles'),
       description: t('laceDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1747054588078-696772a1b18d?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('crochetFabrics'),
       description: t('crochetDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765420/pexels-photo-6765420.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://cdn11.bigcommerce.com/s-z9t2ne/images/stencil/1280x1280/products/52242/482146/pkl-studio-merge-woven-jacquard-burnished__52614.1685490192.jpg?c=2?imbypass=on',
       title: t('jacquardWeaves'),
       description: t('jacquardDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765421/pexels-photo-6765421.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1598616068517-c75ad397a436?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('organicCotton'),
       description: t('organicCottonDescription')
     },
     {
-      image: 'https://images.pexels.com/photos/6765422/pexels-photo-6765422.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://www.furnituretoday.com/wp-content/uploads/2023/08/PERF-Valdese-Weavers-Sustain_QueenBey_1.jpg',
       title: t('performanceBlends'),
       description: t('performanceDescription')
     }
@@ -332,10 +332,9 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
+            backgroundImage: `url('https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`
           }}
         />
-        
         {/* Overlay */}
         <div className="absolute inset-0 bg-[#2F463E] bg-opacity-40" />
 
@@ -759,7 +758,7 @@ function App() {
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="text-xl font-bold text-gray-800 mb-2">Aknazar Karimov</h4>
+                <h4 className="text-xl font-bold text-gray-800 mb-2">Shukur Nazarov</h4>
                 <p className="text-[#2F463E] font-semibold mb-3">{t('founderMasterCraftsman')}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   {t('founderDesc')}
