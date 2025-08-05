@@ -64,68 +64,68 @@ const WorkshopsPage: React.FC<WorkshopsPageProps> = ({ onNavigateHome, onNavigat
   const workshopData = {
     knitting: [
       {
-        image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://images.unsplash.com/photo-1612685180040-e120061d47e3?q=80&w=1269&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: 'Circular Knitting Machines',
         description: 'Our high-speed circular knitting machines produce seamless tubular fabrics with consistent tension and superior quality. These machines can handle various yarn types and create different fabric weights.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: 'Flat Knitting Process',
         description: 'Precision flat knitting creates structured fabrics with clean edges. Our computerized flat knitting machines ensure consistent stitch formation and pattern accuracy for premium textiles.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://img.freepik.com/premium-photo/person-choosing-yarns-from-sample-color-card_762026-131143.jpg',
         title: 'Quality Yarn Selection',
         description: 'We carefully select premium yarns from trusted suppliers, ensuring each batch meets our strict quality standards for strength, consistency, and color fastness.'
       }
     ],
     dyeing: [
       {
-        image: 'https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://www.testextextile.com/wp-content/uploads/2021/09/lab-of-printing-and-dyeing-factory-1024x682.jpg',
         title: 'Color Mixing Laboratory',
         description: 'Our advanced color laboratory ensures precise color matching and consistency. We use eco-friendly dyes and maintain strict quality control for every batch.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://t4.ftcdn.net/jpg/14/30/74/55/360_F_1430745551_svdBlHbCv2WeJiB0huuS5itfYypEsVGb.jpg',
         title: 'Industrial Dyeing Vats',
         description: 'Large-capacity dyeing machines handle bulk orders while maintaining color uniformity. Our process includes pre-treatment, dyeing, and post-treatment for optimal results.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://www.azom.com/images/Article_Images/ImageForArticle_23620_17138688415943221.jpg',
         title: 'Eco-Friendly Process',
         description: 'We implement water recycling systems and use biodegradable chemicals to minimize environmental impact while maintaining superior dyeing quality.'
       }
     ],
     finishing: [
       {
-        image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://www.effeendustri.com/wp-content/uploads/2023/05/pasha_9.jpg',
         title: 'Steam Finishing',
         description: 'High-pressure steam finishing removes wrinkles and sets the fabric structure, ensuring dimensional stability and professional appearance.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://i0.wp.com/textilelearner.net/wp-content/uploads/2022/03/Pressure-and-Heated-Roller-Calendering-Machine.jpg?fit=600%2C409&ssl=1',
         title: 'Calendaring Process',
         description: 'Our calendaring machines apply controlled pressure and heat to achieve the desired fabric hand-feel, from soft and supple to crisp and structured.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://easyodm.tech/wp-content/uploads/2023/06/ai-in-textile-manufacturing.webp',
         title: 'Texture Enhancement',
         description: 'Specialized finishing treatments add unique textures, improve drape, and enhance the fabric\'s performance characteristics for specific applications.'
       }
     ],
     quality: [
       {
-        image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://www.ntu.ac.uk/media/images/business-and-employers/expertise/Fabric-and-garment-consultancy-testing.jpg',
         title: 'Laboratory Testing',
         description: 'Comprehensive testing includes color fastness, shrinkage, tensile strength, and pilling resistance to ensure every fabric meets international standards.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://img.directindustry.com/images_di/projects/images-g/visual-fabric-inspection-based-ccd-camera-155777-18873762.jpg',
         title: 'Visual Inspection',
         description: 'Trained quality inspectors examine every meter of fabric for defects, ensuring consistent quality and appearance throughout each roll.'
       },
       {
-        image: 'https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        image: 'https://usercontent.one/wp/www.tekstilrevolutionen.dk/wp-content/uploads/2020/12/ECOLABEL.png',
         title: 'Certification Process',
         description: 'Final quality certification includes detailed documentation and compliance verification before fabrics are approved for shipment to customers.'
       }
@@ -388,7 +388,7 @@ const WorkshopsPage: React.FC<WorkshopsPageProps> = ({ onNavigateHome, onNavigat
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
+            backgroundImage: `url('https://plus.unsplash.com/premium_photo-1682148926558-1193cab1b79b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`
           }}
         />
         
@@ -424,7 +424,7 @@ const WorkshopsPage: React.FC<WorkshopsPageProps> = ({ onNavigateHome, onNavigat
             <div className="w-full lg:w-1/2">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                  src="https://images.pond5.com/fabric-warehouse-textile-factory-storage-footage-209474823_iconl.jpeg"
                   alt="Raw Materials Warehouse"
                   className="w-full h-full object-cover"
                 />
@@ -547,7 +547,7 @@ const WorkshopsPage: React.FC<WorkshopsPageProps> = ({ onNavigateHome, onNavigat
             <div className="w-full lg:w-1/2">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                  src="https://plus.unsplash.com/premium_photo-1711393510696-55d4e50d987b?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Design Shop"
                   className="w-full h-full object-cover"
                 />
@@ -580,7 +580,7 @@ const WorkshopsPage: React.FC<WorkshopsPageProps> = ({ onNavigateHome, onNavigat
             <div className="w-full lg:w-1/2">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                  src="https://img.freepik.com/premium-photo/rolls-white-fabric-textiles_79762-8082.jpg"
                   alt="Packing Shop"
                   className="w-full h-full object-cover"
                 />

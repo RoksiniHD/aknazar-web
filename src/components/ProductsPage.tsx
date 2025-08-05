@@ -61,7 +61,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
   const products = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1643016087636-69ebfe9c6450?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('premiumKnitFabrics'),
       description: t('knitDescription'),
       category: 'Knit',
@@ -69,7 +69,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1689694423271-994e60a933de?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('flatKnitCollection'),
       description: t('flatKnitDescription'),
       category: 'Flat Knit',
@@ -77,7 +77,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 3,
-      image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1698950330236-0d44a039e0d2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('elegantLaceTextiles'),
       description: t('laceDescription'),
       category: 'Lace',
@@ -85,7 +85,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 4,
-      image: 'https://images.pexels.com/photos/6765415/pexels-photo-6765415.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1675799745780-87b6fe5c5822?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('handcraftedCrochet'),
       description: t('crochetDescription'),
       category: 'Crochet',
@@ -93,7 +93,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 5,
-      image: 'https://images.pexels.com/photos/6765420/pexels-photo-6765420.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1650091431369-4562adde47d3?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('luxuryJacquardWeaves'),
       description: t('jacquardDescription'),
       category: 'Jacquard',
@@ -101,7 +101,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 6,
-      image: 'https://images.pexels.com/photos/6765421/pexels-photo-6765421.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1623929710342-02a8cd2dae25?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('organicCottonBlend'),
       description: t('organicCottonDescription'),
       category: 'Cotton',
@@ -109,7 +109,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 7,
-      image: 'https://images.pexels.com/photos/6765422/pexels-photo-6765422.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673310535178-7c6069f28917?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('performanceBlends'),
       description: t('performanceDescription'),
       category: 'Performance',
@@ -117,7 +117,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 8,
-      image: 'https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1630961680768-998a170045fa?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('silkBlendFabrics'),
       description: t('performanceDescription'),
       category: 'Silk',
@@ -125,7 +125,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 9,
-      image: 'https://images.pexels.com/photos/6765419/pexels-photo-6765419.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1718116325027-1928c85a10c3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('woolBlendCollection'),
       description: t('performanceDescription'),
       category: 'Wool',
@@ -133,7 +133,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
     },
     {
       id: 10,
-      image: 'https://images.pexels.com/photos/6765413/pexels-photo-6765413.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1726837257209-ac129836e21b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: t('specialtyTextiles'),
       description: t('performanceDescription'),
       category: 'Specialty',
@@ -294,7 +294,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/6765414/pexels-photo-6765414.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop')`
+            backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/024/946/449/small_2x/vibrant-silk-textiles-in-a-colorful-heap-generated-by-ai-free-photo.jpg')`
           }}
         />
         
